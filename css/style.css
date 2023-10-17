@@ -1,0 +1,163 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+
+    }
+
+    header{
+        margin-top: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo img{
+        margin-right: 40em;
+        display: inline-block;
+        width: 4em;
+    }
+
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    ul li a{
+        font-size: 1.2em;
+        position: relative;
+        color: white;
+        margin: 0px 50px 0px 0px;
+    }
+
+    .hero{
+        position: fixed;
+        background-image: url("../image/Sunset.jpg");  
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100vw;
+        z-index: -1;
+        top: 0;
+        
+    }
+
+    ul li a::before{
+        content: '';
+        position: absolute;
+        width: 0%;
+        height: 2px; 
+        bottom: -2px; 
+        background-color: #ff5733; 
+        transition: width 0.3s ease-in-out;
+    }
+
+    ul li a:hover::before {
+        width: 100%;
+    }
+
+    .info{
+        padding: 20px;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #ffffff;
+        ;margin: 5em 0em 5em 20em;
+        width: 50%;
+        text-align: center;
+        
+    }
+
+    .info img{
+        margin-left: 2em;
+        display: inline-block;
+        width:40%;
+        height:10%;
+        border-radius: 50px;
+    }
+
+    .Video-container{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50%; 
+            padding: 20px;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #ffffff;    
+            margin: 5em 0em 5em 20em;
+            width: 50%;
+            text-align: center
+     }
+
+     .text{
+        text-align: center;
+        padding: 15px;
+        height: 10%;
+        color: #ffff;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.2);
+  
+     }
+
+     .Drums{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%; 
+        padding: 20px;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #ffffff;    
+        margin: 5em 0em 5em 20em;
+        width: 50%;
+        text-align: center
+  
+     }
+
+     .letter{
+        text-align: center;
+        padding: 15px;
+        height: 10%;
+        color: #ffff;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.2);
+     }
+
+     .information{
+        text-align: center;
+        padding: 20px;
+        height: 10%;
+        color: #ffff;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.2);
+     }
+     .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .sign{
+        text-align: center;
+        padding: 20px;
+        height: 10%;
+        color: #ffff;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.2);
+     }
